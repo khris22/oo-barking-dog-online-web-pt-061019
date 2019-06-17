@@ -12,6 +12,12 @@ class Dog
     @this_doggie_name = dog_name
   end
   
-  def name
+  def name 
+    @this_doggie_name
+  end
+  
+  def bark
+    puts "woof!"
+  end
 
 end
